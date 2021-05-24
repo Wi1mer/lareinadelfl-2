@@ -1,8 +1,6 @@
 setTimeout(function () {
-    odometer.innerHTML = 43156;
+    odometer.innerHTML = 45566;
 }, 1000);
-
-
 
 
 (function () {

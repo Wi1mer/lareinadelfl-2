@@ -3,6 +3,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	transition: .3s ease all;
 }
 
 body {
@@ -98,6 +99,10 @@ main {
 	font-size: 30px;
 	margin: 0 20px;
 	transition: .3s ease all;
+}
+
+a.btn-red-social:hover {
+	border-radius: 45px;
 }
 
 .redes-sociales .btn-red-social:hover {
