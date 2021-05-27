@@ -21,3 +21,16 @@ img.imgvideo {
     border-radius: 10px;
     
 }
+
+/* ? ----- Cuenta Regresiva ----- */
+#cuenta0 {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
+#cuenta01 {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+}
