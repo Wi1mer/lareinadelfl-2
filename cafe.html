@@ -23,7 +23,8 @@
 		  
 		
 	</head>
-	<body>
+
+<body>
 		
 
   
@@ -89,9 +90,9 @@
 							<p class="mensaje"></p>
 						</div>
 						<p class="alert-danger">Tiempo restante para la trasmisión</p>
-						<div id="cuenta"></div>
+						<div id="cuenta0"></div>
 						<p class="alert-danger">Tiempo restante para subir el capítulo</p>
-						<div id="cuenta1"></div>
+						<div id="cuenta01"></div>
 
 						<div class="redes-sociales">
 							<a href="https://t.me/https://t.me/joinchat/DOvq6uk31ntlNWFh" class="btn-red-social"><i class="fab fa-telegram"></i></a>
@@ -224,7 +225,7 @@
 
 					<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
 					<script src="js/simplyCountdown.min.js"></script>
-					<script src="js/countdown.js"></script>
+					<script src="js/countdown1.js"></script>
 					<!-- <script src="js/countdown1.js"></script> -->
 					
 				</div>
@@ -247,23 +248,28 @@
 			</center> -->
 
     
-			
-			
-     
-			
-				  
+<!-- footer -->
+<footer>
+	<div>
+		<div>
+			<center>
+				<div>Hecho con <span class="love">❤️</span> en Colombia</div>
+			</center>
+		</div>
+	</div>
+</footer>
 
+<script>
 
-			    <!-- footer -->
-				<footer>
-					<div>
-						<div>
-							<center>
-								<div>Hecho con <span class="love">❤️</span> en Colombia</div>
-							</center>
-						</div>
-					</div>
-				</footer>
+var vcaps1 = 21;
+var vcaps2 = vcaps1+1;
+	
+var vcapnew = "Capítulo "+vcaps1;
+document.getElementsByClassName("capnew")[0].innerHTML = vcapnew;
+
+var vcapnext = "Capítulo "+vcaps2;
+document.getElementsByClassName("capnext")[0].innerHTML = vcapnext;
+</script>
 
 
 				<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -312,7 +318,7 @@
 				  //Función actualizar
 				function actualizar(){location.reload(true);}
 				//Función para actualizar cada 5 segundos(5000 milisegundos)
-				setInterval("actualizar()",600000);
+				setInterval("actualizar()",7000000);
 				</script>
 				
 				
@@ -327,14 +333,13 @@
 					function () {
 					  $(this).removeClass("hover");
 					});
-				//# sourceURL=pen.js
 				</script>
 				
 				<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-				<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+				<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> -->
 				
-				<script src="https://unpkg.com/plyr@3"></script>
+				<!-- <script src="js/plyr.js"></script> -->
+				<script src="https://cdn.plyr.io/3.5.6/plyr.js"></script>
 				
 				<script>
 				  // Change the second argument to your options:
@@ -350,7 +355,7 @@
 				
 				
 				
-				<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+				<!-- <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script> -->
 				<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
 				<script>
 				var slideWrapper = $(".main-slider"),
@@ -473,59 +478,13 @@
 				
 				
 				
-				<!-- menu-responsive -->
-				<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-				<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
-				<script>
-				  // ---------Responsive-navbar-active-animation-----------
-				  function test() {
-					var tabsNewAnim = $('#navbarSupportedContent');
-					var selectorNewAnim = $('#navbarSupportedContent').find('li').length;
-					var activeItemNewAnim = tabsNewAnim.find('.active');
-					var activeWidthNewAnimHeight = activeItemNewAnim.innerHeight();
-					var activeWidthNewAnimWidth = activeItemNewAnim.innerWidth();
-					var itemPosNewAnimTop = activeItemNewAnim.position();
-					var itemPosNewAnimLeft = activeItemNewAnim.position();
-					$(".hori-selector").css({
-					  "top": itemPosNewAnimTop.top + "px",
-					  "left": itemPosNewAnimLeft.left + "px",
-					  "height": activeWidthNewAnimHeight + "px",
-					  "width": activeWidthNewAnimWidth + "px"
-					});
-				
-					$("#navbarSupportedContent").on("click", "li", function (e) {
-					  $('#navbarSupportedContent ul li').removeClass("active");
-					  $(this).addClass('active');
-					  var activeWidthNewAnimHeight = $(this).innerHeight();
-					  var activeWidthNewAnimWidth = $(this).innerWidth();
-					  var itemPosNewAnimTop = $(this).position();
-					  var itemPosNewAnimLeft = $(this).position();
-					  $(".hori-selector").css({
-						"top": itemPosNewAnimTop.top + "px",
-						"left": itemPosNewAnimLeft.left + "px",
-						"height": activeWidthNewAnimHeight + "px",
-						"width": activeWidthNewAnimWidth + "px"
-					  });
-				
-					});
-				  }
-				  $(document).ready(function () {
-					setTimeout(function () { test(); });
-				  });
-				  $(window).on('resize', function () {
-					setTimeout(function () { test(); }, 500);
-				  });
-				  $(".navbar-toggler").click(function () {
-					setTimeout(function () { test(); });
-				  });
-				  //# sourceURL=pen.js
-				</script>
+			
 				
 				
 				
 				<!-- hora actual -->
 				<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-							<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
 				<script>
 				  var myhour, myminute, mysecond;
 				  
@@ -565,6 +524,8 @@
 					// var hlocal = hour;
 					// var varx = hlocal - mhora + 1;//Chancullohora
 					// document.getElementsByClassName("resultado1")[0].innerHTML = "En tu pais empezara a las ->  "+varx+":00  y se subira a las ->  "+(varx+1)+":00";//Chancullohora
+
+					
 					hour = hour;
 					hour = hour.toString();
 					if (hour.length == 1) {
