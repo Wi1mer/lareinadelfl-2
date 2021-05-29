@@ -1,5 +1,5 @@
 var mMes = 5;
-var mDia = 28;
+var mDia = 31;
 var mhora = 15;
 simplyCountdown('#cuenta0', {
 	year: 2021, // required
